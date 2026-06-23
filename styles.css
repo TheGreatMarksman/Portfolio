@@ -20,7 +20,7 @@
   
   /* Header Section */
   header {
-    background-color: #333;
+    background-color: rgb(16, 28, 255);
     color: white;
     text-align: center;
     padding: 60px 0;
@@ -37,7 +37,7 @@
   
   /* About Me Section */
   #about {
-    background-color: white;
+    background-color: rgb(43, 54, 255);
     padding: 40px 0;
     text-align: center;
   }
@@ -54,7 +54,7 @@
   
   /* Skills Section */
   #skills {
-    background-color: #f9f9f9;
+    background-color:  rgb(69, 79, 255);
     padding: 40px 0;
   }
   
@@ -74,9 +74,47 @@
     margin: 10px 0;
   }
   
+  /* Work Experience Section */
+  #work-experience {
+    background-color:  rgb(43, 54, 255);
+    padding: 40px 0;
+  }
+  
+  #work-experience h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .work-experience {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .work-experience h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .work-experience p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .work-experience a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .work-experience a:hover {
+    color: #007bff;
+  }
+
   /* Projects Section */
   #projects {
-    background-color: white;
+    background-color:rgb(69, 79, 255);
     padding: 40px 0;
   }
   
@@ -111,7 +149,7 @@
   .project a:hover {
     color: #007bff;
   }
-  
+
   /* Contact Section */
   #contact {
     background-color: #f9f9f9;
