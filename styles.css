@@ -34,10 +34,34 @@
     font-size: 1.2rem;
     margin-top: 10px;
   }
+
+  .layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  top: 0;
+  width: 250px;
+  height: fit-content;
+  padding: 75px;
+  border-right: 1px solid #ccc;
+  position: sticky;
+}
+
+.sidebar ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.content {
+  flex: 1;
+  padding: 16px;
+}
   
   /* About Me Section */
   #about {
-    background-color: rgb(43, 54, 255);
+    background-color: rgb(184, 188, 255);
     padding: 40px 0;
     text-align: center;
   }
@@ -54,7 +78,7 @@
   
   /* Skills Section */
   #skills {
-    background-color:  rgb(69, 79, 255);
+    background-color: rgb(217, 219, 255);
     padding: 40px 0;
   }
   
@@ -76,7 +100,7 @@
   
   /* Work Experience Section */
   #work-experience {
-    background-color:  rgb(43, 54, 255);
+    background-color: rgb(204, 205, 221);
     padding: 40px 0;
   }
   
@@ -88,7 +112,7 @@
   
   .work-experience {
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
   }
   
   .work-experience h3 {
@@ -112,9 +136,19 @@
     color: #007bff;
   }
 
+  #work-experience ul {
+    list-style: disc;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  
+  #work-experience ul li {
+    margin: 10px 0;
+  }
+
   /* Projects Section */
   #projects {
-    background-color:rgb(69, 79, 255);
+    background-color: rgb(184, 188, 255);
     padding: 40px 0;
   }
   
@@ -188,6 +222,47 @@
     color: #007bff;
   }
   
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 300px;
+}
+
+.gallery {
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+  width: 30%;        /* takes most of screen width */
+  margin: 0 auto;    /* centers it */
+}
+
+.card {
+  gap: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  margin-top: 8px;
+}
+
   /* Footer Section */
   footer {
     background-color: #333;

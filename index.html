@@ -9,107 +9,165 @@
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header>
+  <div class="layout">
+  <aside class="sidebar">
+    <h3>Directory</h3>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work-experience">Work Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+
+    <!-- Header Section -->
+    <header>
     <div class="container">
       <h1>Marcus Dooley</h1>
       <p> Computing Science Student at Simon Fraser University </p>
     </div>
   </header>
 
-  <!-- About Me Section -->
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>Hi, I'm Marcus, a creative and team-oriented computing science student! I love working alongside similarly driven individuals to develope software that helps people!
-        I've competed in a couple of hackathons and worked on a slew of personal software projects, all for the purpose of learning how to better program and work in a team!
-      </p>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <ul>
-        <li>Computer languages:  Python, SQL, C++, Java, JavaScript, TypeScript, CSS, HTML, R, OCaml, MongoDB</li>
-        <li>Software:  Git, Docker, Spring, Flask, React, Tauri, VirtualBox, Slurm, Gem5, Blender</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Work Experience Section -->
-  <section id="work-experience">
-    <div class="container">
-      <h2>Work Experience</h2>
-      <div class="work-experience">
-        <h3>Software Development Volunteer</h3>
-        <p>Designed and implemented a desktop curriculum management system </p>
-        <p>Allowed user to upload, retrieve and delete file metadata from SQLite
-           selected and opened files through Tauri plugins</p>
-        <p>Implemented a CSV import system that automatically generates complete curriculum schedules from spreadsheet data,
-          reducing manual data entry and improving efficiency
-        </p>
-        <p>Created an intuitive user interface in React that allows users to browse curriculum units and access detailed
-          content through dynamic navigation
+    <!-- About Me Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Marcus, a creative and team-oriented computing science student! I love working alongside similarly driven individuals to develope software that helps people!
+          I've competed in a couple of hackathons and worked on a slew of personal software projects, all for the purpose of learning how to better program and work in a team!
         </p>
       </div>
+    </section>
 
-      <br>
-
-      <div class="work-experience">
-        <h3>Data Automation Volunteer</h3>
-        <p>Developed a Python program for the city of Kelowna that analyzes and classifies water flow data to identify water leaks</p>
-        <p>Designed unit tests to eliminate potential sources of error and verify correct program behaviour</p>
-        <p>Finished project according to specifications two weeks before the deadline</p>
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>Computer languages:  Python, SQL, C++, Java, JavaScript, TypeScript, CSS, HTML, R, OCaml, MongoDB</li>
+          <li>Software:  Git, Docker, Spring, Flask, React, Tauri, VirtualBox, Slurm, Gem5, Blender</li>
+        </ul>
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- Work Experience Section -->
+    <section id="work-experience">
+      <div class="container">
+        <h2>Work Experience</h2>
+        <div class="work-experience">
+          <h3>Software Development Volunteer</h3>
+          <ul>
+            <li>Designed and implemented a desktop curriculum management system </li>
+            <li>Allowed user to upload, retrieve and delete file metadata from SQLite
+              selected and opened files through Tauri plugins</li>
+            <li>Implemented a CSV import system that automatically generates complete curriculum schedules from spreadsheet data,
+              reducing manual data entry and improving efficiency</li>
+            <li>Created an intuitive user interface in React that allows users to browse curriculum units and access detailed
+              content through dynamic navigation
+            </li>
+          </ul>
+        </div>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Greek New Testament with Parsing</h3>
-        <p>Dedicated over 240 hours to develop a program that compiles the grammatical information of the
-          Greek New Testament</p>
-        <p>Converted documents formatted in ASCII into Ancient Greek characters; ran tests against
-          an external source’s converter to ensure that 100% of the words were converted identically</p>
-        <p>Generated graphs to analyze vocabulary lists for each section of the text</p>
-        <p>Proactively met with client to provide progress updates, offer suggestions, and receive feedback</p>
-        <p>Generated a 140,000 line spreadsheet comparing two different versions of the text, placing the identical
-           portions side-by-side and showing gaps or differences between the versions</p>
-        <a href="https://github.com/TheGreatMarksman/greek-new-testament-with-parsing" target="_blank">View Project</a>
+        <br>
+
+        <div class="work-experience">
+          <h3>Data Automation Volunteer</h3>
+          <p>Developed a Python program for the city of Kelowna that analyzes and classifies water flow data to identify water leaks</p>
+          <p>Designed unit tests to eliminate potential sources of error and verify correct program behaviour</p>
+          <p>Finished project according to specifications two weeks before the deadline</p>
+        </div>
+
       </div>
+    </section>
 
-      <br>
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Greek New Testament with Parsing</h3>
+          <p>Dedicated over 240 hours to develop a program that compiles the grammatical information of the
+            Greek New Testament</p>
+          <p>Converted documents formatted in ASCII into Ancient Greek characters; ran tests against
+            an external source’s converter to ensure that 100% of the words were converted identically</p>
+          <p>Generated graphs to analyze vocabulary lists for each section of the text</p>
+          <p>Proactively met with client to provide progress updates, offer suggestions, and receive feedback</p>
+          <p>Generated a 140,000 line spreadsheet comparing two different versions of the text, placing the identical
+            portions side-by-side and showing gaps or differences between the versions</p>
+          <a href="https://github.com/TheGreatMarksman/greek-new-testament-with-parsing" target="_blank">View</a>
+        </div>
 
-      <div class="project">
-        <h3>"Welcome Stranger" Web App</h3>
-        <p>A web app built with Flask, HTML, CSS, and JavaScript that helps people connect to charities in Canada.</p>
-        <p>My Role:</p>
-        <p>Implemented a scroll-able list of charities that displays the location of the</p>
-        <p>charity and gives the user a link to get directions to that charity.</p>
-        <a href="https://welcome-stranger.onrender.com/" target="_blank">View</a>
+        <br>
+
+        <div class="project">
+          <h3>"Bubble Voyage" Game</h3>
+          <p>In the Global Game Jam 2025, Coordinated the work of developers, and audio and visual designers by 
+            facilitating communication between each party and resolving conflicts
+          </p>
+          <p>Designed and drew UML diagrams for the character and enemy classes, giving the programmers a
+            coherent structure to implement</p>
+          <p>Planned and sketched maps for 3 game levels, providing a clear visual layout for the visual designer</p>
+          <a href="https://canaryinacoalmine.itch.io/bubble-voyage" target="_blank">Play</a>
+        </div>
+
+        <br>
+
+        <div class="project">
+          <h3>"Welcome Stranger" Web App</h3>
+          <p>A web app built with Flask, HTML, CSS, and JavaScript that helps people connect to charities in Canada.</p>
+          <p>My Role:</p>
+          <p>Implemented a scroll-able list of charities that displays the location of the</p>
+          <p>charity and gives the user a link to get directions to that charity.</p>
+          <a href="https://welcome-stranger.onrender.com/" target="_blank">View</a>
+        </div>
+
+        <br>
+
+        <div class="project">
+          <h3>"One Man Army" Web Game</h3>
+          <p>Programmed an endless runner game with HTML, CSS, JavaScript</p>
+          <p>Drew custom graphics with Sketchbook, designing layers for the character sprites to
+            efficiently create new poses</p>
+          <p>Implemented animations by using JavaScript code and the HTML Canvas element to 
+            display a specific part of the character's sprite sheet at a time</p>
+          <a href=" https://thegreatmarksman.github.io/One-Man-Army/" target="_blank">Play</a>
+        </div>
+
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Feel free to reach out for any questions, collaborations, or just to connect!</p>
+        <ul>
+          <li>Email: <a href="mailto:marcusedooley@yahoo.com">marcusedooley@yahoo.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/marcus-dooley" target="_blank">https://www.linkedin.com/in/marcus-dooley</a></li>
+          <li>GitHub: <a href="https://github.com/TheGreatMarksman" target="_blank">https://github.com/TheGreatMarksman</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Feel free to reach out for any questions, collaborations, or just to connect!</p>
-      <ul>
-        <li>Email: <a href="mailto:marcusedooley@yahoo.com">marcusedooley@yahoo.com</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/marcus-dooley" target="_blank">https://www.linkedin.com/in/marcus-dooley</a></li>
-        <li>GitHub: <a href="https://github.com/TheGreatMarksman" target="_blank">https://github.com/TheGreatMarksman</a></li>
-      </ul>
+  <div class="gallery">
+    <div class="card">
+      <img src="bubble-voyage.png">
+      <div class="title">"Bubble Voyage" Game</div>
     </div>
-  </section>
+
+    <div class="card">
+      <img src="welcome-stranger.png">
+      <div class="title">"Welcome Stranger" Web App</div>
+    </div>
+
+    <div class="card">
+      <img src="one-man-army.png">
+      <div class="title">"One Man Army" Game</div>
+    </div>
+  </div>
 
   <!-- Footer Section -->
   <footer>
