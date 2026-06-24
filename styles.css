@@ -7,7 +7,7 @@
   }
   
   body {
-    background-color: #f4f4f4;
+    background-color: #505050;
     color: #333;
     line-height: 1.6;
   }
@@ -38,15 +38,19 @@
   .layout {
   display: flex;
   min-height: 100vh;
-}
+  border: 1px solid #007bff;
+  }
 
 .sidebar {
   top: 0;
-  width: 250px;
+  width: 300px;
   height: fit-content;
-  padding: 75px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid green;
   border-right: 1px solid #ccc;
   position: sticky;
+  box-sizing: border-box;
 }
 
 .sidebar ul {
@@ -55,10 +59,16 @@
 }
 
 .content {
-  flex: 1;
   padding: 16px;
+  flex: 1;
 }
-  
+
+main {
+  margin: 0 auto;
+  border: 5px solid darkgray;
+  width: 70%;
+}
+
   /* About Me Section */
   #about {
     background-color: rgb(184, 188, 255);
