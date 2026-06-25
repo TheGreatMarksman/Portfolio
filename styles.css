@@ -13,17 +13,19 @@
   }
   
   .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
   }
   
   /* Header Section */
   header {
-    background-color: rgb(16, 28, 255);
+    background-color: rgb(9, 17, 159);
     color: white;
     text-align: center;
-    padding: 60px 0;
+    margin: 20px;
+    padding: 60px;
+    border-radius: 12px;
   }
   
   header h1 {
@@ -35,10 +37,20 @@
     margin-top: 10px;
   }
 
+  ul{
+    list-style: disc;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  ul li{
+    margin: 10px 0;
+  }
+
   .layout {
   display: flex;
   min-height: 100vh;
-  border: 1px solid #007bff;
+  /* border: 1px solid #fff133; */
   }
 
 .sidebar {
@@ -46,9 +58,10 @@
   width: 300px;
   height: fit-content;
   padding: 20px;
+  margin: 20px;
   background-color: #f9f9f9;
-  border: 2px solid green;
-  border-right: 1px solid #ccc;
+  border: 5px solid darkgray;
+  /* border-right: 1px solid #ccc; */
   position: sticky;
   box-sizing: border-box;
 }
@@ -59,20 +72,24 @@
 }
 
 .content {
-  padding: 16px;
+  padding: 0px;
   flex: 1;
 }
 
+.card{
+  padding: 60px;
+}
+
 main {
-  margin: 0 auto;
+  margin: 50px;
   border: 5px solid darkgray;
-  width: 70%;
+  width: 100%;
 }
 
   /* About Me Section */
   #about {
     background-color: rgb(184, 188, 255);
-    padding: 40px 0;
+    padding: 40px;
     text-align: center;
   }
   
@@ -111,7 +128,7 @@ main {
   /* Work Experience Section */
   #work-experience {
     background-color: rgb(204, 205, 221);
-    padding: 40px 0;
+    padding: 40px;
   }
   
   #work-experience h2 {
@@ -159,7 +176,7 @@ main {
   /* Projects Section */
   #projects {
     background-color: rgb(184, 188, 255);
-    padding: 40px 0;
+    padding: 40px;
   }
   
   #projects h2 {
@@ -170,7 +187,7 @@ main {
   
   .project {
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
   }
   
   .project h3 {
@@ -192,6 +209,16 @@ main {
   
   .project a:hover {
     color: #007bff;
+  }
+
+  #project ul {
+    list-style: disc;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  
+  #project ul li {
+    margin: 10px 0;
   }
 
   /* Contact Section */
